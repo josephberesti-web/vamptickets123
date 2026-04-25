@@ -5,7 +5,8 @@
     "watchPatterns": [
       "/artifacts/discord-bot/**"
     ],
-    "installCommand": "pnpm install --no-frozen-lockfile"
+    "installCommand": "pnpm install --no-frozen-lockfile",
+    "buildCommand": "echo 'Skipping workspace build - discord-bot is plain JavaScript'"
   },
   "deploy": {
     "runtime": "V2",
